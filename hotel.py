@@ -9,7 +9,7 @@ class HotelManagementSystem:
         self.root.title("Hotel Management System")
         # (+0+0) means starting from x=0,y=0
         self.root.geometry("1550x800+0+0")
-        # root.attributes('-fullscreen', True)  #To make it fullscreen
+        # root.attributes('-fullscreen', True)  #This is usedTo make it fullscreen
 
         # ======1st Image======
         img1 = Image.open("./Images/hotel1.jpg")
